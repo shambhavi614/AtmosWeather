@@ -1,72 +1,107 @@
-# WeatherNow
+# 🌦️ AtmosWeather
 
-WeatherNow is a Java web application that provides real-time weather information for any city using the OpenWeather API. The application is built with Java Servlets and JSP and presents weather data through a simple, responsive interface.
+AtmosWeather is a Java web application that provides real-time weather information for cities around the world. Built using Java Servlets and JSP, it integrates with the OpenWeather API to fetch and display current weather conditions through a simple and responsive web interface.
 
-## Features
+---
 
-- Search weather by city name
-- Current temperature and weather conditions
-- Humidity, wind speed, and visibility
-- Cloud coverage information
-- Date and time display
-- Responsive user interface
+## ✨ Features
 
-## Technologies Used
+- 🔍 Search weather by city name
+- 🌡️ View current temperature
+- ☁️ Weather description and cloud coverage
+- 💧 Humidity information
+- 🌬️ Wind speed details
+- 👀 Visibility data
+- 📅 Current date and time display
+- 📱 Responsive user interface
+
+---
+
+## 🛠️ Technologies Used
 
 - Java
 - Java Servlets
-- JSP (JavaServer Pages)
+- JavaServer Pages (JSP)
 - HTML5
 - CSS3
 - JavaScript
 - Apache Tomcat
-- Gson
+- Gson Library
 - OpenWeather API
 
-## Project Structure
+---
+
+## 📂 Project Structure
 
 ```
-WeatherNow/
-├── src/
-├── WebContent/
-│   ├── WEB-INF/
-│   ├── css/
-│   ├── js/
-│   └── index.jsp
-└── README.md
+AtmosWeather
+│── src/
+│   ├── main/
+│   │   ├── java/
+│   │   └── webapp/
+│── screenshots/
+│── README.md
 ```
 
-## Prerequisites
+---
 
-- JDK 11 or later
+## 🚀 Getting Started
+
+### Prerequisites
+
+- JDK 17 or later
 - Apache Tomcat 10.x
-- Eclipse IDE or IntelliJ IDEA
-- OpenWeather API key
+- Eclipse IDE for Enterprise Java Developers
+- OpenWeather API Key
 
-## Installation
+### Installation
 
-1. Clone the repository.
-2. Import the project into your IDE.
+1. Clone the repository
+
+```bash
+git clone https://github.com/shambhavi614/AtmosWeather.git
+```
+
+2. Import the project into Eclipse.
+
 3. Configure Apache Tomcat.
-4. Add your OpenWeather API key in the servlet.
+
+4. Replace the API key in `MyServlet.java` with your own OpenWeather API key.
+
 5. Run the project on the Tomcat server.
 
-## Usage
+---
 
-1. Open the application in your browser.
-2. Enter a city name.
-3. Click the search button.
-4. View the current weather information.
+## 📸 Screenshots
 
-## Future Improvements
+Add screenshots of the application here.
 
-- 5-day weather forecast
-- Current location weather
-- Dark mode
-- Temperature unit conversion
-- Search history
-- Favorite cities
+```
+screenshots/
+```
 
-## License
+---
 
-This project is intended for educational and learning purposes.# AtmosWeather
+## 📌 Future Enhancements
+
+- 🌙 Dark mode
+- 📍 Current location weather
+- ⭐ Favorite cities
+- 🌡️ Celsius/Fahrenheit toggle
+- 📅 5-day weather forecast
+- 🕒 Recent search history
+- 🎨 Improved UI and animations
+
+---
+
+## 📄 License
+
+This project is available for educational and learning purposes.
+
+---
+
+## 👩‍💻 Author
+
+**Shambhavi**
+
+GitHub: https://github.com/shambhavi614
